@@ -6,8 +6,7 @@ void swap(int *a, int *b) {
     *b = temp;
 }
 
-void bubbleSort(int inputArray[], int n)
-{
+void bubbleSort(int inputArray[], int n) {
     if (n == 1) return;
     int swapped = 0;
 
