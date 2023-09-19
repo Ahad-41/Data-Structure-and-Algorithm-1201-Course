@@ -37,7 +37,7 @@ int main()
     int n = strlen(s1);
     int m = strlen(s2);
 
-    int length = LCS(n, m);
-    printf("%d\n",length-1);
+    int length = LCS(n-1, m-1);
+    printf("%d\n",length);
 }
 
