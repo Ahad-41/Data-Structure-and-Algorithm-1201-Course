@@ -10,7 +10,7 @@ int LCS(int i, int j) {
     if (i < 0 || j < 0) return 0;
     if (dp[i][j] != -1) return dp[i][j];
     
-    int ans = -1;
+    int ans = 0;
     int firstWay = LCS(i-1, j);
     if (firstWay > ans) ans = firstWay;
     
